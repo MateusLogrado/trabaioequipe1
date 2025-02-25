@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    font-size: 20px 1.2rem;
+    color: rgb(249, 249, 249);
+}
+
+header {
+    background-color: ;
+    color: rgb(247, 247, 247);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--verde-claro);
+    color: var(--preto);
+}
