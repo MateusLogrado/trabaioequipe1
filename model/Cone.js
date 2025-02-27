@@ -3,10 +3,13 @@ export default class Cone {
         this.raio = raio;
         this.altura = altura;
     }
+    
+    calcularGeratriz(){
+        return Math.sqrt((this.raio * this.raio) + (this.raio * this.raio)) 
+    }
 
     calcularAreaTotal() {
-        const geratriz = Math.sqrt(this.raio * 2 + this.altura * 2);
-        return Math.PI * this.raio * (this.raio + geratriz);
+        return Math.PI * this.raio * (this.raio + this.calcularGeratriz());
     }
 
     calcularVolume() {

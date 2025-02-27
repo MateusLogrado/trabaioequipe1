@@ -5,8 +5,7 @@ describe("Teste unitário da classe Cone", () => {
         const raio = 2;
         const altura = 3; 
         const cone = new Cone(raio, altura);
-        const geratriz = Math.sqrt(raio * 2 + altura * 2);
-        const areaEsperada = Math.PI * raio * (raio + geratriz);
+        const areaEsperada = Math.PI * raio * (raio + cone.calcularGeratriz());
         expect(cone.calcularAreaTotal()).toBeCloseTo(areaEsperada, 2);
     });
 
@@ -16,5 +15,13 @@ describe("Teste unitário da classe Cone", () => {
         const cone = new Cone(raio, altura);
         const volumeEsperado = (1 / 3) * Math.PI * raio * 2 * altura;
         expect(cone.calcularVolume()).toBeCloseTo(volumeEsperado, 2);
+    });
+
+    test("Cálculo da Geratriz", () => {
+        const raio = 2;
+        const altura = 3; 
+        const cone = new Cone(raio, altura);
+        const geratrizEsperada = Math.sqrt((raio * raio) + (raio * raio))
+        expect(cone.calcularGeratriz()).toBeCloseTo(geratrizEsperada, 2);
     });
 });
