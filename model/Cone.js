@@ -1,3 +1,5 @@
+// classe que calcula cone
+
 export default class Cone {
     constructor(raio, altura) {
         this.raio = raio;

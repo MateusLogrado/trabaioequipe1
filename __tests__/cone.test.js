@@ -1,3 +1,5 @@
+// teste que testa a classe cone
+
 import Cone from "../model/Cone.js";
 
 describe("Teste unitário da classe Cone", () => {

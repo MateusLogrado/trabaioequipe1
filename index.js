@@ -9,7 +9,7 @@ calcular.addEventListener('click' , ()=>{
     console.log(raio)
 
 
-    const Cone = new Cone(raio)
+    const Cone = new Cone(raio, altura)
     const area = Cone.calcularAreaTotal().toFixed(2)
     const volume =  Cone.calcularVolume().toFixed(2)
 
