@@ -1,5 +1,3 @@
-import Cone from './model/Cone.js'
-
 export default class Cone {
     constructor(raio, altura) {
         this.raio = raio;
@@ -7,11 +5,11 @@ export default class Cone {
     }
 
     calcularAreaTotal() {
-        const geratriz = Math.sqrt(this.raio ** 2 + this.altura ** 2);
+        const geratriz = Math.sqrt(this.raio * 2 + this.altura * 2);
         return Math.PI * this.raio * (this.raio + geratriz);
     }
 
     calcularVolume() {
-        return (1 / 3) * Math.PI * this.raio ** 2 * this.altura;
+        return (1 / 3) * Math.PI * this.raio * 2 * this.altura;
     }
 }

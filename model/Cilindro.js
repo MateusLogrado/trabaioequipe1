@@ -1,5 +1,3 @@
-import Cilindro from './model/Cilindro.js'
-
 export default class Cilindro {
     constructor(raio, altura) {
         this.raio = raio;
@@ -11,6 +9,6 @@ export default class Cilindro {
     }
 
     calcularVolume() {
-        return Math.PI * this.raio ** 2 * this.altura;
+        return Math.PI * this.raio * 2 * this.altura;
     }
 }
