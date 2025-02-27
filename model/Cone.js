@@ -1,4 +1,4 @@
-// classe que calcula cone
+// classe que calcula cone g
 
 export default class Cone {
     constructor(raio, altura) {

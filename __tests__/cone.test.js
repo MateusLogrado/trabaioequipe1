@@ -1,4 +1,4 @@
-// teste que testa a classe cone
+// teste que testa a classe cone gf
 
 import Cone from "../model/Cone.js";
 
