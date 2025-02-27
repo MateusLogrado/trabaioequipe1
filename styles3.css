@@ -1,0 +1,27 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo da página */
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: white; /* Texto branco */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* 100% da altura da tela */
+    font-family: Arial, sans-serif;
+}
+
+/* Container Centralizado */
+.container {
+    background-color: #1f1f1f; /* Cinza escuro */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 300px;
+}

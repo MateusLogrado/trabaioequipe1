@@ -1,38 +1,47 @@
+/* Estilizando o container */
 body{
-    background-color: black;
-    font-size: 20px 1.2rem;
-    color: rgb(249, 249, 249);
+    background-color: #000000;
+    background-image: url(ckd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+      
 }
 
-header {
-    background-color: ;
-    color: rgb(247, 247, 247);
-    padding: 20px 0;
-    text-align: center;
+.container {
+    width: 100%; /* Define a largura do container */
+    max-width: 1450px; /* Limita o tamanho máximo */
+    margin: 1px auto; /* Centraliza na página */
+    padding: 10px; /* Espaço interno */
+    background-color: #437511; /* Cor de fundo */
+    border-radius: 10px; /* Cantos arredondados */
+    text-align: center; /* Centraliza o texto */
+    
+    
 }
 
-header .logo {
-    font-size: 2em;
-    font-weight: bold;
+/* Estilizando o título dentro do container */
+.container h2 {
+    margin: 0;
+    color: #000000;
+    font-size: 50px;
+
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+/* Estilizando o parágrafo */
+.container p {
+    color: #000000;
+    font-size: 18px;
 }
 
-nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.main-content {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: var(--verde-claro);
-    color: var(--preto);
+a {
+    background-color: #4CAF50; /* Verde */
+    color: rgb(0, 0, 0); /* Texto */
+    padding: 1px 50px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 8px; /* Cantos arredondados */
+    font-size: 20px;
+    cursor: pointer; /* Cursor de clique */
 }
